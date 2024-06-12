@@ -1,3 +1,4 @@
+const fs = require('fs')
 const jison = require('jison')
 
 const grammar = {
@@ -87,5 +88,5 @@ const grammar = {
 }
 
 const parser = new jison.Parser(grammar)
-
-module.exports = parser
+const source = parser.generate()
+fs.writeFileSync('./logo_parser.js', source, 'utf8')
