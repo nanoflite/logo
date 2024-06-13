@@ -21,6 +21,7 @@ function turtle(options = {
     }
 
     function line(x1, y1, x2, y2, pen) {
+        if (!pen) return
         const ctx = context
         ctx.beginPath()
         ctx.moveTo(x1, y1)
