@@ -11,6 +11,7 @@ Uses node-canvas to draw png files, but can be used in a web page as well, with 
   * MAKE
   * REPEAT
   * IF
+  * STOP
   * PENDOWN, PD
   * PENUP, PU
   * FORWARD, FD
