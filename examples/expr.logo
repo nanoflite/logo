@@ -1,4 +1,3 @@
-
-:A := 10
-:B := :A * 3
-SHOW :A :B
+MAKE "A 10
+MAKE "B :A * 3
+SHOW "A= :A ",B= :B
