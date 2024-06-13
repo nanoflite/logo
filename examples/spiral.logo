@@ -1,8 +1,7 @@
-
  TO SPIRAL :N
     IF :N < 1 [ STOP ]
     FORWARD :N
-    RIGHTTURN 20
+    RIGHT 20
     SPIRAL :N * 0.97
  END
  PENDOWN

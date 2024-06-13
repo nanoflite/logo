@@ -1,6 +1,6 @@
 
-:I := 1
+MAKE "I 1
 REPEAT 10 [
-    :I := :I + 1
+    MAKE "I :I + 1
     SHOW :I
 ]
