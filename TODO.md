@@ -5,6 +5,5 @@
   * [x] Support shortcut words (parser)
   * [x] Send short names to effector: PD, PU, FD, BK, LT, RT
   * [x] Make turtle effector
-  * [ ] Test koch and other examples
-  * [ ] Make krijtbot effector
-  * [ ] local/global variables?
+  * [x] Test koch and other examples
+  * [x] local/global variables?
