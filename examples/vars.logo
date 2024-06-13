@@ -1,0 +1,5 @@
+MAKE "A 1
+MAKE "B 2
+SHOW "A= :A ",B= :B
+MAKE "C :A + :B
+SHOW "C= :C

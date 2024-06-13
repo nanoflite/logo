@@ -1,0 +1,11 @@
+; test
+TO SQUARE :SIZE :DEPTH
+    IF :DEPTH = 0 [ STOP ]
+    REPEAT 4 [
+        FORWARD :SIZE
+        RIGHT 90
+        SQUARE ( :SIZE * 0.4 ) ( :DEPTH - 1)
+    ]    
+END
+PENDOWN
+SQUARE 200 3

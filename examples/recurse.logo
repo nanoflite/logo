@@ -1,0 +1,11 @@
+TO RECURSE :N
+    SHOW 0 :N
+    IF :N = 0 [ STOP ]
+    SHOW 1 :N
+    REPEAT 2 [
+        RECURSE :N - 1
+        RECURSE :N - 1
+    ]
+END
+RECURSE 3
+FORWARD 10
